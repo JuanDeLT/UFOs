@@ -15,16 +15,16 @@
     <!-- add a link to our style sheet under the link to bootstraps CDN -->
     <link rel ="stylesheet" href="static/css/style.css">
 </head>
-<body>
+<body class = "bg-dark">
     <!-- wrapper class addds functionality to bootstrap by grouping the elements and specifying styling in our stylesheet-->
     <div class = "wrapper">
-        <nav class = "navbar navbar-expand-lg">
+        <nav class = "navbar navbar-dark bg-dark navbar-expand-lg">
             <!-- we don't need to redirect readres to another section of the webpage
             we want to reset the webpage after a filter has been applied to the table-->
             <a class = "navbar-brand" href = "index.html"> UFO Sightings</a>
         </nav>
         <div class = "jumbotron">
-            <h1> The Truth Is Out There</h1>
+            <h1 class = "display-4"> The Truth Is Out There</h1>
         </div>
         <div class = "container-fluid">
             <div class = "row">
@@ -40,17 +40,17 @@
         <div class = "container-fluid">
             <div class = "row">
                 <div class = "col-md-3">
-                    <form>
+                    <form class = "bg-dark">
                         <p>Filter Search</p>
-                        <ul class = "list-group">
+                        <ul class = "bg-dark list-group">
 
                         </ul>
-                        <li class = "list-group-item">
+                        <li class = "bg-dark list-group-item">
                             <label for = "date">Enter Date</label>
                             <input type = "text" placeholder = "1/10/2010" id = "datetime"/>
                         </li>
-                        <li class = "list-group-item">
-                            <button id = "filter-btn" type = "button" class = "btn btn-default"> Filter Table</button>
+                        <li class = "bg-dark list-group-item">
+                            <button id = "filter-btn" type = "button" class = "btn btn-dark"> Filter Table</button>
                         </li>
                     </form>
                 </div>
@@ -73,5 +73,8 @@
             </div>
         </div>
     </div>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/d3/4.11.0/d3.js"></script> <!-- allows the library to react to user input-->
+    <script src="static/js/data.js"></script> <!-- needs data to be loaded before it can be accessed -->
+    <script src="static/js/app.js"></script>
 </body>
 </html>
