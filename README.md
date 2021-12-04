@@ -9,7 +9,7 @@ To use the website the user simply has to input search criteria under the filter
 
 Original table     |  Filtered table
 :-------------------------:|:-------------------------:
-nonfiltered.png|  filtered.png
+![nonfiltered](https://user-images.githubusercontent.com/89175578/144689594-c17a9f5b-d8a1-4525-b167-22ab919038ae.png)|  filtered.png
 
 To clear the filters, delete all of the criteria from the boxes.
 
